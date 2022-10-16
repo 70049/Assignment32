@@ -1,0 +1,61 @@
+Q1.   Suppose You have a Travel Website landing page.centre its title and subtitle togeter,apply proper CSS.
+Ans.    <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <link rel="stylesheet" href="./A3.1.css">
+                <title>Travel-Website</title>
+            </head>
+            <body>
+                <div class="one">
+
+                    <h2>Welcome In Indian-Airlines</h2>
+                    <p class="subtitle">~Your Comfort is Our Priority~</p>
+                </div>
+            </body>
+        </html>
+               
+Q2.  Refering the above question,apply proper background CSS properties to the page.(Avoid scroll,we need only landing page).
+Ans.     *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: blueviolet;
+        }
+        h2{
+            margin: 0 auto;
+
+
+            width: 500px;
+
+            font-size: 1.5rem;
+            color: crimson;
+            text-transform: uppercase;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+            letter-spacing:2px;
+
+        }
+        .subtitle{
+           margin: 0 auto;
+            width: 250px;
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style:italic;
+          }
+          
+Q3.   Create a centred Navigation bar with options(Home,Gallery,Event,Feedback,Contact).
+Ans.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
